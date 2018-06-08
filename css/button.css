@@ -1,0 +1,67 @@
+#mySidenav a {
+    position: absolute;
+    left: -120px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 140px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 250px;
+    background-color: #4CAF50;
+}
+
+#blog {
+    top: 350px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 450px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 550px;
+    background-color: #555
+}
+
+#home {
+	top: 650px;
+    background-color: #5d0909
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width:100%;
+}
+.parallax {
+    /* The image used */
+    background-image: url("a1.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.size {
+	  margin: 0px;
+  	  max-width:900px;

@@ -1,0 +1,55 @@
+#mySidenav a {
+    position: absolute;
+    left: -120px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 140px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 250px;
+    background-color: #4CAF50;
+}
+
+#blog {
+    top: 350px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 450px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 550px;
+    background-color: #555
+}
+
+#home {
+	top: 650px;
+    background-color: #5d0909
+}
+
+.parallax1 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax1 {
+  background-image: url("a1.jpg");
+  min-height: 100%;
+}
+

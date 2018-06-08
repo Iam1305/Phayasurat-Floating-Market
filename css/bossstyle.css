@@ -1,0 +1,27 @@
+.parallax1 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax1 {
+  background-image: url("a1.jpg");
+  min-height: 100%;
+}
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:30%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
